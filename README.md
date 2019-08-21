@@ -3,7 +3,7 @@ Assembly language projects aiming to provide insight into "machine's way of thin
 
 ## Attack
 Assembly x86_64 program which as an argument gets file and checks whether this file satisfies multiple criterias.  
-File is treated as binary file containing sequence of 32-bit numbers.
+File is treated as a binary file containing sequence of 32-bit numbers.
 
 Criterias:
 - File does not contain number 68020
@@ -23,6 +23,6 @@ Network contains N eurons, labeled from 0 to N-1.
 </br>
 Module implements C function:  
 uint64_t euron(uint64_t n, char const \*prog);  
-prog parameter's is a string which describes set of operations which are realized using stack.  
+prog parameter's is a string which describes set of operations which are performed using stack.  
 </br>
 Eurons work <b>concurrently</b> - each euron is started by different thread.
