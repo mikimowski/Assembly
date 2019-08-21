@@ -17,4 +17,11 @@ ld --fatal-warnings -o attack attack.o
 
 
 
-
+## Euron
+Assembly x86_64 program simulating euron network.  
+Network contains N eurons, labeled from 0 to N-1. 
+Module implements C function:  
+uint64_t euron(uint64_t n, char const \*prog);  
+</br>
+Eurons work <b>concurrently</b> - each euron is started by different thread.  
+prog parameter's is a string which describes set of operations which are realized using stack.
