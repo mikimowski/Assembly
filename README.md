@@ -12,8 +12,8 @@ Criterias:
 - Sum of all numbers in file modulo 2 ^ 32 is equal: 68020
 
 ### Compilation
-nasm -f elf64 -o attack.o attack.asm
-ld --fatal-warnings -o attack attack.o
+nasm -f elf64 -o attack.o attack.asm  
+ld --fatal-warnings -o attack attack.o  
 
 
 
