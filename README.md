@@ -2,7 +2,7 @@
 Assembly language projects aiming to provide insight into "machine's way of thinking"
 
 ## Attack
-Assembly x86_64 program which as an argument gets file and checks whether this file satisfies multiple criterias.
+Assembly x86_64 program which as an argument gets file and checks whether this file satisfies multiple criterias.  
 File is treated as binary file containing sequence of 32-bit numbers.
 
 Criterias:
